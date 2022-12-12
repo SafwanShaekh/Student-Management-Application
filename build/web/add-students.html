@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC Project | Java</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+
+        function displayDate() {
+            document.getElementById("showdate").innerHTML = Date();
+        }
+
+    </script>
+</head>
+
+<body onload="displayDate()">
+    <header>
+        <h1>Java MVC Project using Servlets & JSP</h1>
+    </header>
+    <section class="main-menu">
+        <div id="main-menu-heading">
+            <h1>ADD STUDENT</h1>
+        </div>
+        <div class="container">
+            <form action="student" method="POST">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                    <input type="text" name="stdname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">GPA</label>
+                    <input type="text" name="stdgpa" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Batch Year</label>
+                    <input type="text" name="stdbtchyear" class="form-control" id="exampleInputPassword1">
+                </div>                
+                <input type="submit" class="btn btn-primary" value="ADD">
+            </form>
+        </div>
+    </section>
+    <footer>
+
+        <p>&#169; Reem falah, Java 205, <span id="showdate"></span> </p>
+    </footer>
+
+</body>
+
+</html>

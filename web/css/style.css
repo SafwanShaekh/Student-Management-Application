@@ -1,0 +1,72 @@
+body,header h1{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    background-color: #fd9f02;
+}
+header h1, footer p{
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+}
+.main-menu{    
+   background-color: #feebda;
+   padding: 150px;
+  
+}
+.data-add-sucess{
+    background-color: #6b5283;
+    text-align: center;
+} 
+#redirect-btn{
+    background-color: #030dfa !important;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.btnn{
+    text-align: center;
+}
+#redirect-btn a{
+    text-decoration: none;
+    color: #c0c3a8 !important;
+}  
+
+#main-menu-heading h1{
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.main-menu-items{
+    margin: 0;
+}
+ol.main-menu-items li a{
+    text-decoration: none;
+    
+}
+ol.main-menu-items{
+    list-style: none;
+    line-height: 30px;
+}
+ol.main-menu-items li {
+    color: #6b5283;
+}
+
+.main-menu-list{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container form label{
+    min-width: 8px;
+}
+@media screen and (max-width:767px){
+    .main-menu {       
+        padding: 60px;
+    }
+}
